@@ -1,0 +1,20 @@
+#9/17/24
+#1-2period
+#Brithanysanchez
+#cfu#3
+f_name = input("What's your first name")
+l_name = input("What's your last name")
+num1 = int(input("Enter a whole number in digits"))
+num2 = float(input("Enter a second whole number in digits"))
+
+addition = num1 + num2
+subtraction = num1 - num2
+multiplication = num1 * num2
+division = num1 / num2
+remainder = num1 % num2
+
+full_name = f_name , l_name
+print("Hello " + f_name +" the numbers you selected: "+str(num1)+" and "+str(num2))
+
+print("This is the sum of those 2 number: ", addition)
+print(num1, "-", num2, "=", subtraction)
